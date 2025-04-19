@@ -1,5 +1,5 @@
-# E.M.M.A
-_A physics‑inspired research project in active development._
+# E.M.M.A - Energy Minimising Market Algorithm
+A physics‑inspired research project in active development.
 
 ## Project Overview
 E.M.M.A. ingests a **100 ms BTC/USDT depth stream** and tests two rival quoting
@@ -15,13 +15,13 @@ under identical latency, fee, and position‑limit constraints, so any
 performance gap is attributable to the control rule—not the plumbing.
 
 ## Current Milestones
-| Status | Deliverable | Target date |
-| ------ | ----------- | ----------- |
-| ✅ setup | Repo, Overleaf sync, folder skeleton | *19/04/25* |
-| 🔄 WIP | Live WebSocket → TimescaleDB pipeline | *08/06/25* |
-| ⏳ next | Implement Avellaneda‑Stoikov baseline | *06/07/25* |
-| ⏳ next | Derive & code minimum‑energy policy | *27/07/25* |
-| ⏳ next | Replay simulator + results dashboard | *07/09/25* |
+| Status | Deliverable | Target Date | Completed Date |
+| ------ | ----------- | ----------- | ----------- |
+| ✅ Setup | Repo, Overleaf sync, folder skeleton | *19/04/25* | *19/04/25* |
+| 🔄 WIP | Live WebSocket → TimescaleDB pipeline | *08/06/25* | *TBC* |
+| ⏳ Next | Implement Avellaneda‑Stoikov baseline | *06/07/25* | *TBC* |
+| ⏳ Next | Derive & code minimum‑energy policy | *27/07/25* | *TBC* |
+| ⏳ Next | Replay simulator + results dashboard | *07/09/25* | *TBC* |
 
 > **Note:** The project is a work‑in‑progress; done as a side project.
 

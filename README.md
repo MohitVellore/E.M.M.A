@@ -13,10 +13,10 @@ two quoting policies:
 ## Current Milestones
 | Status | Deliverable | Target date |
 | ------ | ----------- | ----------- |
-| ✅ setup | Repo, Overleaf sync, folder skeleton | *Today* |
-| 🔄 WIP | Live WebSocket → TimescaleDB pipeline | *T + 7 Weeks* |
-| ⏳ next | Implement Avellaneda‑Stoikov baseline | *T + 14 Weeks* |
-| ⏳ next | Derive & code minimum‑energy policy | *T + 19 Weeks* |
-| ⏳ next | Replay simulator + results dashboard | *T + 21 Weeks* |
+| ✅ setup | Repo, Overleaf sync, folder skeleton | *19/04/25* |
+| 🔄 WIP | Live WebSocket → TimescaleDB pipeline | *08/06/25* |
+| ⏳ next | Implement Avellaneda‑Stoikov baseline | *06/07/25* |
+| ⏳ next | Derive & code minimum‑energy policy | *27/07/25* |
+| ⏳ next | Replay simulator + results dashboard | *07/09/25* |
 
 > **Note:** The project is a work‑in‑progress; done as a side project.

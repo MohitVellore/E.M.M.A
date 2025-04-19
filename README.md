@@ -25,6 +25,13 @@ performance gap is attributable to the control rule—not the plumbing.
 
 > **Note:** The project is a work‑in‑progress; done as a side project.
 
-## Background Reading
-1. **Avellaneda, M. & Stoikov, S. (2008)** - High‑frequency trading in a limit‑order book market.
-2. **Manhire, S. (2022)** - Using the Principle of Least Action to Determine Probabilities of Asset‑Price Displacements.
+## Background Reading
+| Stage of Build | Background Reading |
+|----------------|-------------------|
+| **1  Market‑making foundations** | **Avellaneda & Stoikov (2008)** – *High‑frequency trading in a limit‑order book market* → closed‑form optimal spread (project baseline).<br>**Cartea, Jaimungal & Ricci (2014)** – inventory‑aware spread control in continuous time.<br>**Gould et al. (2013)** – comprehensive microstructure survey. |
+| **2  Inventory & optimal‑control maths** | **Guéant, Lehalle & Fernandez‑Tapia (2013)** – HJB derivations for limit‑order liquidation.<br>**Cartea & Jaimungal (2015)** – integrates real‑time σ(t) into execution control. |
+| **3  Physics / least‑action angle** | **Manhire (2022)** – maps the principle of least action to asset‑price displacements.<br>**Choi & Wong (2021)** – active‑inference agents for limit‑order books.<br>**Massaad et al. (2024)** – variational principles in electronic liquidity provision (pre‑print). |
+| **4  Data engineering & LOB dynamics** | **Kalugin et al. (2020)** – high‑frequency schemas & compression strategies in TimescaleDB.<br>**Bouchaud et al. (2002)** – statistical properties of LOB shape and price impact. |
+| **5  Benchmarking & alternative policies** | **Cont & Kukanov (2017)** – optimal order placement across discrete venues.<br>**Guo et al. (2023)** – deep‑RL market‑making benchmark from raw LOB tensors. |
+| **6  Risk & evaluation** | **Foucault, Kadan & Kandel (2005)** – queue‑based view of limit‑order books.<br>**Eisler, Bouchaud & Kockelkoren (2012)** – links order‑book geometry to price impact. |
+| **7  Generative & stress‑testing extras** | **Tonekaboni et al. (2024)** – score‑based diffusion models for multi‑asset return scenarios. |
